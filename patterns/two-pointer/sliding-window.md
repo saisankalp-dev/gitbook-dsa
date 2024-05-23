@@ -66,17 +66,19 @@ Output: 20
 {% tabs %}
 {% tab title="Python" %}
 ```python
-def maxSumSubArray(self, nums: List[int], k: int) -> int:
+from typing import List
+
+def maxSumSubArray(nums: List[int], k: int) -> int:
     
     # Initialise value
     start = 0
-    end = k - 1
+    end = k
     length_of_nums = len(nums)
-    window_sum = sum(l[start:end+1])
+    window_sum = sum(nums[start:end+1])
     max_window_sum = 0
     
     # Move window by one step till it reaches end
-    while end < l:
+    while end < length_of_nums - 1:
         end += 1
         new_window_sum = window_sum + nums[end] - nums[start]
         start += 1
