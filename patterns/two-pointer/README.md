@@ -1,0 +1,7 @@
+# Two Pointer
+
+Two Pointer Pattern has a lot of variations and is super versatile. I consider Two Pointer to be a superset of other techiques like sliding window and fast-slow pointer (use mostly in linked-lists).
+
+### Variants
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Sliding Window</strong></td><td>A window of fixed size moving along a array that is updated as we move by one step. This helps reduce repetition of work.</td><td><a href="../../.gitbook/assets/sliding-window.svg">sliding-window.svg</a></td></tr><tr><td><strong>Closing Window</strong></td><td>When two pointers are positioned on the start and end of an array and move towards the centre and collide with one another. This generally happens with a condition.</td><td><a href="../../.gitbook/assets/closing-window.svg">closing-window.svg</a></td></tr><tr><td><strong>Fast Slow Pointer</strong></td><td>Pattern where two pointers move in the same direction but at different speeds. Mostly used in Linked Lists.</td><td><a href="../../.gitbook/assets/fast-slow-pointer.svg">fast-slow-pointer.svg</a></td></tr><tr><td><strong>Crawling Window</strong></td><td>Also called as dynamic sliding window. This is a variation of Sliding window without a fixed size for the window.</td><td><a href="../../.gitbook/assets/crawling-window.svg">crawling-window.svg</a></td></tr></tbody></table>
